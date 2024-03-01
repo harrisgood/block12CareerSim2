@@ -14,6 +14,11 @@ nav {
   display: flex;
 }
 
+img {
+  height: 26rem;
+  width: 26rem;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -67,7 +72,19 @@ h2 {
   align-items: center;
 }
 
-.portfolioHeader {
+#portfolioHeader {
   color: azure;
 }
 
+#homeRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+#homeContent {
+  background-color: F6D776;
+  margin: 2rem auto;
+  padding: 1rem;
+  height: 0%;
+}
