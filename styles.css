@@ -1,0 +1,5 @@
+.flexCol {
+  /* arrange children in vertical column (hopefully) */
+  display: flex;
+  flex-direction: column;
+}
