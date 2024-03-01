@@ -3,6 +3,10 @@ body {
 }
 
 nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: FAEF9B;
   font-size: larger;
   align-items: center;
@@ -13,6 +17,9 @@ nav {
 a {
   color: black;
   text-decoration: none;
+}
+a:hover {
+  color: 647D87;
 }
 
 .activePage {
@@ -26,10 +33,21 @@ a {
   gap: 1em;
 }
 
+div {
+  display: block;
+}
+
 main {
+  width: 80%;
   display: flex;
   min-height: 100vh;
   padding: 10em;
+  flex-direction: column;
+}
+
+h2 {
+  align-items: center;
+
 }
 
 .flexCol {
@@ -37,3 +55,19 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.projectSection {
+  width: calc(100%-6rem);
+  background-color: F6D776;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.projectDiv {
+  align-items: center;
+}
+
+.portfolioHeader {
+  color: azure;
+}
+

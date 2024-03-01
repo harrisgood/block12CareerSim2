@@ -1,9 +1,17 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css"/>
+
+    <style>
+      img {
+        height: 26rem;
+        width: 26rem;
+      }
+      /* rectangle 2 heigth to 3 width ratio */
+    </style>
   </head>
   <body>
-    <header>
+    <!-- <header> -->
       <nav>
         <section class="navSection">
           <a href="./about.html">About Me</a>
@@ -12,14 +20,16 @@
           <a href="./contact.html">Contact Me</a>
         </section>
       </nav>
-    </header>
+    <!-- </header> -->
     <main>
-      <h1>Some Canvas</h1>
-
+      <div class="portfolioHeader">
+        <h1 style="text-decoration: underline;">Canvas Games</h1>
+        <p>Using Javascript for game logic and Canvas to render it, I have recreated some simple games</p>
+      </div>
       <div class="flexCol">
-        <section>
+        <section class="projectSection">
           <h2>Snake</h2>
-          <div>
+          <div class="projectDiv">
             <img src="snakeCanvas.png" alt="screenshot of canvas rendering of the classic game snake" style="height: 300px; width: 300px;" />
             <p>
               Use the arrow keys to move your snake and eat apples, carefully managing your snake's size
@@ -27,9 +37,9 @@
           </div>
         </section>
 
-        <section>
+        <section class="projectSection">
           <h2>Minesweeper</h2>
-          <div>
+          <div class="projectDiv">
             <img src="./mineSweeper.png" alt="screenshot of canvas rendering of the classic game snake" />
             <p>
               Using math related clues, try to find all the bombs without setting any off!
@@ -37,19 +47,19 @@
           </div>
         </section>
 
-        <section>
-          <h2>Helicopter Game</h2>
-          <div>
-            <img src="./helicopterGame.png" alt="screenshot of canvas rendering of the classic game snake" />
+        <section class="projectSection">
+          <h2>Helicopter Game (an old flash game)</h2>
+          <div class="projectDiv">
+            <img src="./helicopterGame.png" alt="screenshot of canvas rendering of the classic game snake" style="width: 39rem;" />
             <p>
               Control your altitude with the mouse to avoid crashing into the ceiling, floor, and obstacles
             </p>
           </div>
         </section>
 
-        <section>
+        <section class="projectSection">
           <h2>Chess</h2>
-          <div>
+          <div class="projectDiv">
             <img src="./chessCanvas.png" alt="screenshot of canvas rendering of the classic game snake" />
             <p>
               A 'pass and play' style of Chess. Use strategy to capture your opponent's King! (No I did not make a chess engine lol)
