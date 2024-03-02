@@ -9,14 +9,15 @@ nav {
   right: 0;
   background-color: FAEF9B;
   font-size: xx-large;
-  align-items: center;
   padding: 1em;
   display: flex;
 }
 
-img {
-  height: 26rem;
-  width: 26rem;
+.navSection {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 1em;
 }
 
 a {
@@ -33,15 +34,9 @@ a:hover {
   border: solid black 1px;
 }
 
-.navSection {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  gap: 1em;
-}
-
-div {
-  display: block;
+img {
+  height: 26rem;
+  width: 26rem;
 }
 
 main {
@@ -51,11 +46,6 @@ main {
   flex-direction: column;
 }
 
-h2 {
-  align-items: center;
-
-}
-
 .flexCol {
   /* arrange children in vertical column (hopefully) */
   display: flex;
@@ -63,8 +53,10 @@ h2 {
 }
 
 .flexRow {
+  /* arrange children in a horizontal row */
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row;  
+  apparently this line^ is unnecessary but i still need the gap  so im keeping the class*/
   gap: 2em;
 }
 
@@ -82,10 +74,6 @@ h2 {
   font-size: xx-large;
 }
 
-.projectDiv {
-  align-items: center;
-}
-
 .pageHeader {
   color: azure;
   font-size: x-large;
@@ -98,7 +86,7 @@ h2 {
 }
 
 /* transition background color to brown */
-.transitionToWhite:hover {
+.transitionToBrown:hover {
   background-color: saddlebrown;
   transition: background-color 1s;
 }
