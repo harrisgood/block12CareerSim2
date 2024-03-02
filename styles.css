@@ -86,7 +86,7 @@ h2 {
   align-items: center;
 }
 
-#portfolioHeader {
+.pageHeader {
   color: azure;
   font-size: x-large;
 }

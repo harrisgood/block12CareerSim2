@@ -1,6 +1,11 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css"/>
+    <style>
+      form {
+        font-size: x-large
+      }
+    </style>
   </head>
   <body>
       <nav>
@@ -12,7 +17,27 @@
         </section>
       </nav>
     <main>
-
+      <h1 style="font-size: 333%;color: azure;">Contact Me:</h1>
+      <section class="flexCol sectionBackground" style="align-items: center;">
+        <form id="contact">
+          <div>
+            <label for="name">Name:</label>
+            <br/>
+            <input type="text" id="name" name="name"/>
+          </div>
+          <div>
+            <label for="emailPhone">Email Address or Phone Number:</label>
+            <br/>
+            <input type="text" id="emailPhone" name="emailPhone"/>
+          </div>
+          <div>
+            <label for="message">Leave me a message:</label>
+            <br/>
+            <textarea id="message" name="message" rows="6" cols="50"></textarea>
+          </div>
+          <button type="submit" id="submit">Send</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
