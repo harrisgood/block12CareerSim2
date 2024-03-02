@@ -45,7 +45,6 @@ div {
 }
 
 main {
-  /* width: 90%; */
   display: flex;
   min-height: 100vh;
   padding: 10em;
@@ -61,7 +60,6 @@ h2 {
   /* arrange children in vertical column (hopefully) */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
 }
 
 .flexRow {
@@ -98,6 +96,7 @@ h2 {
   padding: 1rem;
   height: 0%;
 }
+
 /* transition background color to brown */
 .transitionToWhite:hover {
   background-color: saddlebrown;
