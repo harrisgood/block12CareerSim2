@@ -100,13 +100,14 @@ h2 {
 /* transition background color to brown */
 .transitionToWhite:hover {
   background-color: saddlebrown;
-  transition: background-color 1s ease-in-out;
+  transition: background-color 1s;
 }
 
 /* compatibility with smaller screens */
 @media (max-width:1800px) {
   .smallScreenCol {
     flex-direction: column !important;
+    align-items: center;
   }
   .smallScreenOrder {
     order: 0 !important;
