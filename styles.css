@@ -8,7 +8,7 @@ nav {
   left: 0;
   right: 0;
   background-color: FAEF9B;
-  font-size: larger;
+  font-size: xx-large;
   align-items: center;
   padding: 1em;
   display: flex;
@@ -43,7 +43,7 @@ div {
 }
 
 main {
-  width: 80%;
+  /* width: 90%; */
   display: flex;
   min-height: 100vh;
   padding: 10em;
@@ -59,6 +59,7 @@ h2 {
   /* arrange children in vertical column (hopefully) */
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
 }
 
 .flexRow {
@@ -68,10 +69,17 @@ h2 {
 }
 
 .sectionBackground {
-  width: calc(100%-6rem);
   background-color: F6D776;
   margin: 2rem auto;
   padding: 1rem;
+}
+
+.bigLetters {
+  font-size:x-large;
+}
+
+.biggerLetters {
+  font-size: xx-large;
 }
 
 .projectDiv {
@@ -80,11 +88,11 @@ h2 {
 
 #portfolioHeader {
   color: azure;
+  font-size: x-large;
 }
 
 #homeContent {
   background-color: F6D776;
-  margin: 2rem auto;
   padding: 1rem;
   height: 0%;
 }
