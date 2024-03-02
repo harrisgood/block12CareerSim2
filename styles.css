@@ -29,6 +29,8 @@ a:hover {
 
 .activePage {
   pointer-events: none;
+  padding: 3px;
+  border: solid black 1px;
 }
 
 .navSection {

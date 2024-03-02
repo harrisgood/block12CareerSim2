@@ -1,6 +1,11 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css"/>
+    <style>
+      .flexRow {
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
       <nav>
@@ -17,40 +22,42 @@
         <p>Using Javascript for game logic and Canvas to render it, I have recreated some simple games</p>
       </div>
       <div class="flexCol">
-        <section class="sectionBackground bigLetters">
-          <h2>Snake</h2>
+        <section class="sectionBackground flexRow smallScreenCol bigLetters">          
+          <img src="snakeCanvas.png" alt="screenshot of canvas rendering of the classic game snake"/>
           <div class="projectDiv">
-            <img src="snakeCanvas.png" alt="screenshot of canvas rendering of the classic game snake" style="height: 300px; width: 300px;" />
+            <h2>Snake</h2>
             <p>
               Use the arrow keys to move your snake and eat apples, carefully managing your snake's size
             </p>
           </div>
         </section>
 
-        <section class="sectionBackground bigLetters">
-          <h2>Minesweeper</h2>
+        <section class="sectionBackground flexRow smallScreenCol bigLetters">
+          <img src="./mineSweeper.png" alt="screenshot of canvas rendering of the classic game snake" />
           <div class="projectDiv">
-            <img src="./mineSweeper.png" alt="screenshot of canvas rendering of the classic game snake" />
+            <h2>Minesweeper</h2>
             <p>
               Using math related clues, try to find all the bombs without setting any off!
             </p>
           </div>
         </section>
 
-        <section class="sectionBackground bigLetters">
-          <h2>Helicopter Game (an old flash game)</h2>
+        <section class="sectionBackground flexRow smallScreenCol bigLetters">
+          
+          <img src="./helicopterGame.png" alt="screenshot of canvas rendering of the classic game snake" style="width: 39rem;" />
           <div class="projectDiv">
-            <img src="./helicopterGame.png" alt="screenshot of canvas rendering of the classic game snake" style="width: 39rem;" />
+            <h2>Helicopter Game (an old flash game)</h2>
             <p>
               Control your altitude with the mouse to avoid crashing into the ceiling, floor, and obstacles
             </p>
           </div>
         </section>
 
-        <section class="sectionBackground bigLetters">
-          <h2>Chess</h2>
+        <section class="sectionBackground flexRow smallScreenCol bigLetters">
+          
+          <img src="./chessCanvas.png" alt="screenshot of canvas rendering of the classic game snake" />
           <div class="projectDiv">
-            <img src="./chessCanvas.png" alt="screenshot of canvas rendering of the classic game snake" />
+            <h2>Chess</h2>
             <p>
               A 'pass and play' style of Chess. Use strategy to capture your opponent's King! (No I did not make a chess engine lol)
             </p>
