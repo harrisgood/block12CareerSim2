@@ -61,7 +61,13 @@ h2 {
   flex-direction: column;
 }
 
-.projectSection {
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.sectionBackground {
   width: calc(100%-6rem);
   background-color: F6D776;
   margin: 2rem auto;
@@ -74,12 +80,6 @@ h2 {
 
 #portfolioHeader {
   color: azure;
-}
-
-#homeRow {
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
 }
 
 #homeContent {
